@@ -1,5 +1,5 @@
 {
-  "body": "{\"message\": \"message in lambda\"}",
+  "body": "{\"name\": \"abcd\",\"email\": \"abcd@test.com\"}",
   "resource": "/{proxy+}",
   "path": "/path/to/resource",
   "httpMethod": "POST",
