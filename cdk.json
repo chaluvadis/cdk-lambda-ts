@@ -42,6 +42,6 @@
     "@aws-cdk/customresources:installLatestAwsSdkDefault": false,
     "@aws-cdk/aws-rds:databaseProxyUniqueResourceName": true,
     "@aws-cdk/aws-codedeploy:removeAlarmsFromDeploymentGroup": true,
-    "deploymentStage": "dev"
+    "deploymentStage": "prod"
   }
 }

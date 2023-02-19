@@ -2,7 +2,7 @@ import { Stack, StackProps, Duration } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { Runtime, Architecture } from "aws-cdk-lib/aws-lambda";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
-export class CdkLambdaTsStack extends Stack {
+export class ProdLambdaTsStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps, stage: string) {
     super(scope, id, props);
     const helloWorldFunction = new NodejsFunction(this, 'HelloWorldHandler', {
